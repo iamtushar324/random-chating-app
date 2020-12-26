@@ -1,0 +1,19 @@
+.chat_box{
+    position:fixed;
+    bottom:0px;
+    width:500px;
+    height: 60px;
+}
+
+.send_btn{
+    padding:6px 10px;
+    margin:10px;
+    font-size:16px;
+
+}
+.msg_input{
+    padding:7px;
+    width: 74%;
+    margin:10px;
+    font-size:14px
+}
