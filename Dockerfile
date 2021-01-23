@@ -2,10 +2,14 @@ FROM node:alpine
 
 WORKDIR	/app
 
-COPY package.json .
+COPY package.json ./
 
 RUN npm i
 
+RUN npm i -g serve
+
 COPY ./ ./
 
-CMD ['npm','start']
+RUN npm run build
+
+CMD ["npm","run","d"]

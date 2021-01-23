@@ -3,7 +3,7 @@ import { Socket } from 'socket.io-client'
 import ChatBox from './ChatBox'
 import ChatScreen from "./ChatScreen"
 import socketIOClient  from "socket.io-client"
-const ENDPOINT = 'http://localhost:5555';
+const ENDPOINT = 'https://schatapi.iamtushar324.live';
 const socket = socketIOClient(ENDPOINT)
 function App() {
 

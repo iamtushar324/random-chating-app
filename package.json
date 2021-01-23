@@ -15,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "d":"serve build -p 8080",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
